@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "websupply/doctrine-rollback",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSupply\\DoctrineRollback\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WebSupply.DoctrineRollback"
+        }
+    }
+}
